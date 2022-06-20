@@ -11,6 +11,24 @@ body {
   font-family: 'Manrope', sans-serif;
   font-size: 62.5%;
   background-image: url(./images/bg-pattern.svg);
+  background-color: hsl (0, 0%, 100%);
+  background-size: cover;
+  max-width: 144rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.section {
+  /* background-color: brown; */
+  max-width: 144rem;
+  height: 100vh;
+  margin: 0 30rem;
+  padding: 0 auto;
+}
+
+.container {
+  padding: 0 9.6rem;
 }
 
 .grid {
@@ -24,6 +42,31 @@ body {
 .flex {
   display: flex;
 }
+
+.flex-col {
+  flex-direction: column;
+}
+/**************************/
+/* COMPONENT  STYLES */
+/**************************/
+.section-heading-box {
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -2.5px;
+  color: hsl(227, 35%, 25%);
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+
+.heading-text {
+  font-size: 1.2rem;
+  text-align: center;
+  color: ;
+}
+
 /*  
 --- 01 TYPOGRAPHY SYSTEM
 
