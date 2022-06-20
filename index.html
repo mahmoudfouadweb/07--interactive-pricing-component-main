@@ -17,30 +17,68 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Interactive pricing component</title>
   </head>
   <body>
     <section class="section">
+      <!-- heading box -->
+
       <div class="section-heading-box">
         <h1 class="heading">Simple, traffic-based pricing</h1>
         <p class="heading-text">
           Sign-up for our 30-day trial. No credit card required.
         </p>
       </div>
+
+      <!-- pricing box -->
+
       <div class="section-pricing-box">
         <div class="top-box">
           <p class="page-veiws">100k Pageviews</p>
           <p class="price"><span class="bold"> $16.00</span> /month</p>
         </div>
         <input type="range" />
-        <div class="billing">
-          <span>Monthly Billing</span>
-          <div class="btn-billing">btn</div>
-          <span>Yearly Billing</span>
+
+        <!-- billing box -->
+
+        <div class="billing-box">
+          <p class="monthly">Monthly Billing</p>
+          <div class="btn-billing">
+            <ion-icon name="radio-button-off"></ion-icon>
+          </div>
+          <p class="yearly">Yearly Billing</p>
+          <span class="discount">25% discount</span>
         </div>
+        <!-- line -->
+
+        <form class="form-box">
+          <div class="check-box">
+            <input
+              type="checkbox"
+              name="unlimited-websites"
+              id="unlimitedwebsites"
+            />
+            <label for="unlimited-websites">Unlimited websites</label>
+            <input type="checkbox" name="ownership" id="ownership" />
+            <label for="ownership">100% data ownership</label>
+            <input type="checkbox" name="reports" id="reports" />
+            <label for="reports">Email reports</label>
+          </div>
+          <div class="cta-btn-box">
+            <button>Start my trial</button>
+          </div>
+        </form>
       </div>
     </section>
-    25% discount Unlimited websites 100% data ownership Email reports Start my
-    trial
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

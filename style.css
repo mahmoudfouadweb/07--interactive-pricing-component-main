@@ -10,6 +10,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 62.5%;
+  background-image: url(./images/bg-pattern.svg);
 }
 
 .grid {
@@ -17,8 +18,7 @@ body {
 }
 
 .grid-3--col {
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .flex {
